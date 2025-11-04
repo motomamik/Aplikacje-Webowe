@@ -1,16 +1,164 @@
 html {
-      background-color: #DDBEAA;
-      height: 100vh;
+  font-family: Arial, sans-serif;
+  height: 100%;
 }
 
 body {
-      height: 100vh;
-      margin: 0;
+  background-color: #f5e6cc;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
 
 .main-container {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+ol {
+  padding-left: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+ol li a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 10px;
+}
+
+ol li a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.link1 {
+  color: #b22222;
+}
+
+.link2 {
+  color: #2255b2;
+}
+
+.link3 {
+  color: #228b22;
+}
+
+body.cw1 {
+  background-color: #fff3e0;
+}
+
+article {
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffffcc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+article img {
+  display: block;
+  margin: 20px auto 0;
+}
+
+.autor {
+  color: #b22222;
+  font-weight: bold;
+}
+
+body.cw2 {
+  background-color: #e0f0ff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+
+th {
+  background-color: #4682b4;
+  color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #e6f2fa;
+}
+
+body.cw3 {
+  background-color: #e0ffe0;
+}
+
+.kwadraty {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-auto-rows: 100px;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.kwadrat {
+  width: 100px;
+  height: 100px;
+}
+
+.kw1 {
+  background-color: red;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.kw2 {
+  background-color: blue;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.kw3 {
+  background-color: yellow;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.kw4 {
+  background-color: purple;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.kw5 {
+  background-color: orange;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.kwadrat img {
+  width: 100px;
+  height: 100px;
+  display: block;
 }
